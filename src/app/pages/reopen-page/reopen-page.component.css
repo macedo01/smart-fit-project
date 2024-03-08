@@ -1,0 +1,19 @@
+*{
+    font-family: 'Gotham';
+    color: var(--dark-grey);
+}
+
+#header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#titles-gap{
+    background-color: var(--dark-grey);
+    width: 100px;
+    height: 10px;
+}

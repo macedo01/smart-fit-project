@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    align-items: center; /*eixo X*/
+    justify-content: center; /*eixo Y*/
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+}
+
+#header-logo {
+    width:150px; 
+    height:150px;
+    cursor: pointer;
+}
