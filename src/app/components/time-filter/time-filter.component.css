@@ -40,11 +40,15 @@ form {
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: flex-end;
 }
 
 #time {
-    padding-left: 88.5%;     
+    /*TO-DO VER SE TEM ALGO MELHOR PARA FAZER NESSA SITUAÇÃO*/
+    padding-left: calc(100% - 200px);     
+}
+
+#timeMorning {
+    padding-left: calc(100% - 211px);   
 }
 
 .buttons {
@@ -53,6 +57,7 @@ form {
     justify-content: center;
 
     button{
+        cursor: pointer;
         width: 250px;
         height: 40px;
     }

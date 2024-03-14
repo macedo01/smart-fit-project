@@ -8,24 +8,24 @@
     </div>
     <form>
         <div class="form-selection">
-            <input type="checkbox" id="labelMorning">
-            <label for="labelMorning">Manhã</label>
-            <h5 id="time">06:00 ás 12:00</h5>
+            <input type="radio" id="labelMorning" name="labels">
+            <label for="labels">Manhã</label>
+            <h5 id="timeMorning">06:00 ás 12:00</h5>
         </div>
         <div class="form-selection">
-            <input type="checkbox" id="labelTarde">
-            <label for="labelTarde">Tarde</label>
+            <input type="radio" id="labelTarde" name="labels">
+            <label for="labels">Tarde</label>
             <h5 id="time">12:01 ás 18:00</h5>
         </div>
         <div class="form-selection">
-            <input type="checkbox" id="labelNight">
-            <label for="labelNight">Noite</label>
+            <input type="radio" id="labelNight" name="labels">
+            <label for="labels">Noite</label>
             <h5 id="time">18:01 ás 23:00</h5>
         </div>
     </form>
 
     <div class="buttons">
-        <button id="find-unit">ENCONTRAR UNIDADE</button>
-        <button id="clean-filter">LIMPAR</button>
+        <button type="submit" id="find-unit">ENCONTRAR UNIDADE</button>
+        <button (click)="clearFilter()" type="reset" id="clean-filter">LIMPAR</button>
     </div>
 </div>
